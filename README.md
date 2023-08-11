@@ -1,3 +1,3 @@
 # learning_git
 
-This is a description for the learning_git readme file.
+This is test repo for me to practice GitHub pushes, pull requests, branching, etc.
