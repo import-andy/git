@@ -46,23 +46,23 @@ git pull                     Downloads and merges content from a remote reposito
 git pull origin <branch>
 
 git branch --all             Shows all repo branches
-git branch <branch name>     Creates a new brach named <branch name>
+git branch <branch_name>     Creates a new brach named <branch name>
 
-git checkout <branch name>   Switching to that branch's working directory
+git checkout <branch_name>   Switching to that branch's working directory
 
 git remote                                    Manages the set of repositories ("remotes")
-git remote add origin <REMOTE_URL>            Sets the new remote
+git remote add origin <remote_url>            Sets the new remote
 git remote -v                                 Verifies the new remote URL
 git remote add <repo_name> <remote_url>       Adds new remote
-git remote remove <remote_url>                Removes remote
+git remote remove <repo_name>                 Removes remote
 
 
 -----Example: creating new local repo & pushing to the remote------
 git init -b main
 git add .
 git commit -m "First commit"
---create new empty remote repo & copy <REMOTE_URL>--
-git remote add origin <REMOTE_URL> 
+--create new empty remote repo & copy <remote_url>--
+git remote add origin <remote_url> 
 git remote -v
 git push origin main
 """
