@@ -52,13 +52,12 @@ git branch <branch_name>     Creates a new brach named <branch name>
 git checkout <branch_name>   Switching to that branch's working directory
 
 git remote                                    Manages the set of repositories ("remotes")
-git remote add origin <remote_url>            Sets the new remote
 git remote -v                                 Verifies the new remote URL
-git remote add <repo_name> <remote_url>       Adds new remote
-git remote remove <repo_name>                 Removes remote
+git remote set-url origin <new_url>           Sets new url for the remote (for example ater renaming it)
 
 
 -----Example: creating new local repo & pushing to the remote------
+--in terminal go to your new local folder--
 git init -b main
 git add .
 git commit -m "First commit"
