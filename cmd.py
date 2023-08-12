@@ -53,6 +53,8 @@ git checkout <branch name>   Switching to that branch's working directory
 git remote                                    Manages the set of repositories ("remotes")
 git remote add origin <REMOTE_URL>            Sets the new remote
 git remote -v                                 Verifies the new remote URL
+git remote add <repo_name> <remote_url>       Adds new remote
+git remote remove <remote_url>                Removes remote
 
 
 -----Example: creating new local repo & pushing to the remote------
