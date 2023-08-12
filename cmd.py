@@ -2,7 +2,7 @@
 Windows Terminal Commands
 aka Command line, CMD, Command Prompt, PowerShell, etc.
 
-directories:
+-----directories-----
 cd <folder>         # change directory // goes to the <folder> directory // can drag&drop folder name too
 cd ..               # go to previous directory
 mkdir <folder>      # make directory // creates <folder>
@@ -10,7 +10,7 @@ pwd                 # print working directory - outputs path of current working 
 ls                  # shows a list of folders in current directory (without hidden files)
 clear               # srcolls down & cleares command line
 
-versions:
+-----versions-----
 python --version    # checks Python version
 git -- version
 
@@ -55,7 +55,7 @@ git remote add origin <REMOTE_URL>            Sets the new remote
 git remote -v                                 Verifies the new remote URL
 
 
-Creating new local repo & pushing to the remote:
+-----Example: creating new local repo & pushing to the remote------
 git init -b main
 git add .
 git commit -m "First commit"
