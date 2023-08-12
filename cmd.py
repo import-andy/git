@@ -18,6 +18,7 @@ code .              # opens Visual Studio to edit files
 
 
 -----Git-----
+See all commands on https://git-scm.com/docs
 Workflow: create repo - clone - make changes - stage - commit - push/pull
 Braching: checkout (switch to) the new brach before starting working on it
 
