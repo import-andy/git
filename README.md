@@ -1,3 +1,3 @@
-# learning_git
-
-This is test repo for me to practice GitHub pushes, pull requests, branching, etc.
+# git
+1. Practicing GitHub - pushes, pull requests, branching, etc.
+2. Noting down Windows Terminal git commands in cmd.py 
