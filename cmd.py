@@ -57,14 +57,19 @@ git remote -v                                 Verifies the new remote URL
 git remote set-url origin <new_url>           Sets new url for the remote (for example ater renaming it)
 
 
------Example: creating new local repo & pushing to the remote------
+-----Example: create a new repository on the command line------
 --in terminal go to your new local folder--
-git init -b main
-git add .
-git commit -m "First commit"
---create new empty remote repo & copy <remote_url>--
-git remote add origin <remote_url> 
-git remote -v
-git push origin main
+echo "# java" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/import-andy/java.git (your repo web address)
+git push -u origin main
+
+-----Example: push an existing repository from the command line------
+git remote add origin https://github.com/import-andy/java.git (your repo web address)
+git branch -M main
+git push -u origin main
 """
 
