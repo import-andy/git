@@ -9,6 +9,7 @@ mkdir <folder>      # make directory // creates <folder>
 pwd                 # print working directory - outputs path of current working directory
 ls                  # shows a list of folders in current directory (without hidden files)
 clear               # srcolls down & cleares command line
+<tab>               # show suggested folders 
 
 -----versions-----
 python --version    # checks Python version
