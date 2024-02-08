@@ -1,6 +1,0 @@
-**Text File**
-
-This text file is added to "adding_text_file" branch
-
-I will try now to commit this new file from _VS_Code_ using "code ." command, opposed to..
-... normal Windows Terminal commands like "add, commit & pull"
