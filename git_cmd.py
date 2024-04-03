@@ -45,7 +45,7 @@ git push origin <branch>
 git push --set-upstream origin <branch>     Push for newly created branches (only 1st time)
 
 git pull                     Downloads and merges content from a remote repository to the local repository
-git pull origin <branch>
+git pull origin main
 
 git branch --all             Shows all repo branches
 git branch <branch_name>     Creates a new brach named <branch name>
