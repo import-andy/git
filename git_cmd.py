@@ -56,6 +56,10 @@ git remote                                    Manages the set of repositories ("
 git remote -v                                 Verifies the new remote URL
 git remote set-url origin <new_url>           Sets new url for the remote (for example ater renaming it)
 
+-----Example: commiting changes------
+git add .
+git commit -m "added changes to the log file"
+git push -u origin main
 
 -----Example: create a new repository on the command line------
 --in terminal go to your new local folder--
