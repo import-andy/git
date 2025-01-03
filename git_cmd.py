@@ -56,6 +56,11 @@ git remote                                    Manages the set of repositories ("
 git remote -v                                 Verifies the new remote URL
 git remote set-url origin <new_url>           Sets new url for the remote (for example ater renaming it)
 
+-----Example: unrelated commit histories------
+git pull origin main --allow-unrelated-histories
+git commit -m "Merged unrelated histories"
+git push origin main
+
 -----Example: commiting changes------
 git add .
 git commit -m "added changes to the log file"
